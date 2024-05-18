@@ -22,3 +22,4 @@ class Api::V1::GroupMembersController < ApplicationController
     params.require(:group_member).permit(:group_id, :user_id)
   end
 end
+

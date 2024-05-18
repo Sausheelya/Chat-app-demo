@@ -22,3 +22,4 @@ class Api::V1::GroupsController < ApplicationController
     params.require(:group).permit(:name)
   end
 end
+

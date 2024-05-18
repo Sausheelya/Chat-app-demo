@@ -22,3 +22,4 @@ class Api::V1::ChatsController < ApplicationController
     params.require(:chat).permit(:body)
   end
 end
+
